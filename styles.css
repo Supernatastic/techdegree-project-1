@@ -70,7 +70,7 @@ header .profile-image {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 10px solid rgb(0, 0, 0);
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -118,6 +118,13 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #6f92aa;
+}
+
+.cat-photo {
+  width: 250px;
+  border-radius: 5%;
+  border: 2px solid black;
+  padding: 2px;
 }
 
 footer {
